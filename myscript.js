@@ -67,8 +67,8 @@ function techCheckIn(event) {
             available: true
         });
 
-        localStorage.setItem("turntaking-data", JSON.stringify(techs));
         techs = [ ...availabletech, ...unavailabletech ];
+        localStorage.setItem("turntaking-data", JSON.stringify(techs));
         retable(techs)
     }
     
