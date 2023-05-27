@@ -1,0 +1,19 @@
+.mr-2 {
+    margin-right: 1em !important;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
